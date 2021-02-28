@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+}
+header h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    color: rgba(92, 83, 83, 0.837);
+    padding-bottom: 30px;
+    position: relative;
+    top: 20vh;
+}
+article {
+    text-align: center;
+    margin: 28vh auto;
+    border: 4px solid rgb(34, 217, 230);
+    width: max-content;
+    padding: 30px;
+    border-radius: 20px;
+}
+.inform, .sub-but {
+    text-align: center;
+    margin: 10px;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.5s;
+    background-color: bisque;
+}
+.inform, .sub-but:holder{
+    color: black;
+}
+.sub-but {
+    color: aqua;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.inform:hover {
+    border-color: rgba(0, 255, 255, 0.296);
+}
+.inform:focus {
+    border-color: aqua;
+}
+.sub-but:hover {
+    border-left-color: rgb(42, 208, 42);
+    border-right-color: rgb(42, 208, 42);
+    border-top-color: aqua;
+    border-bottom-color: aqua;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+footer {
+    background-color: #e17055;
+    height: 30vh;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    font-size: 80px;
+    padding-top: 0vh;
+}
